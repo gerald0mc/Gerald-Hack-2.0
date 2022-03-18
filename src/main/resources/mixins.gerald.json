@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.gerald.hack.mixin.mixins",
+  "refmap": "mixins.gerald.refmap.json",
+  "mixins": [
+    "IMinecraft",
+    "MixinGuiMainMenu",
+    "MixinMinecraft",
+    "MixinNetworkManager",
+    "MixinRenderPlayer"
+  ]
+}
